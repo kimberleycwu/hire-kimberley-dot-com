@@ -1,0 +1,117 @@
+/* Base reset and typography */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  color: #0f172a;
+  background: #ffffff;
+  line-height: 1.6;
+}
+
+/* Page container */
+body > header {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 16px 8px 16px;
+}
+
+/* Header layout */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+header h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.tabs {
+  display: flex;
+  gap: 20px;
+}
+
+.tabs p, header h1 {
+  cursor: pointer;
+  color: #334155;
+}
+
+.tabs p:hover, header h1:hover {
+  color: #4f3668;
+}
+
+/* Navigation links - remove default styling */
+header h1 a, .tabs a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header h1 a:hover, .tabs a:hover {
+  color: #7c39c0;
+}
+
+/* Main content */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* About page layout */
+.about-content {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.info {
+  flex: 1;
+}
+
+.pdf-container {
+  flex: 1;
+  min-width: 0;
+}
+
+.pdf-container iframe {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+/* Social links */
+.social-links {
+  margin-top: 10px;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+  transition: opacity 0.2s ease;
+}
+
+.social-icon:hover {
+  opacity: 0.7;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .pdf-container iframe {
+    height: 400px;
+  }
+}
