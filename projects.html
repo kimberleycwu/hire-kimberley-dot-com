@@ -8,9 +8,23 @@
 </head>
 <body>
     <main>
-        <h2>Projects</h2>
-        <p>Add your projects content here...</p>
+        <div class="projects-header">
+            <h2>Projects</h2>
+            <p>I mostly code, but I can do a little bit of everything.</p>
+        </div>
+        
+        <div class="projects-filters">
+            <h3>Filter by technology:</h3>
+            <div id="tag-filters" class="tag-filters">
+                <!-- Tags will be loaded dynamically -->
+            </div>
+        </div>
+        
+        <div id="projects-container" class="projects-grid">
+            <!-- Projects will be loaded dynamically -->
+        </div>
     </main>
     
-    <script src="loadHeader.js"></script>
+    <script src="scriptsFolder/loadHeader.js"></script>
+    <script src="scriptsFolder/loadProjects.js"></script>
 </body>
