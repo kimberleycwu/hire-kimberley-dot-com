@@ -1,6 +1,6 @@
 // Function to load and display projects
 function loadProjects() {
-    fetch('projects.json')
+    fetch('../projects.json')
         .then(response => response.json())
         .then(data => {
             displayProjects(data.projects);
@@ -24,7 +24,7 @@ function displayProjects(projects, filteredProjects = null) {
     projectsContainer.innerHTML = projectsToShow.map(project => `
         <div class="project-card" data-tags="${project.tags.join(',')}">
             <div class="project-image">
-                <img src="${project.image}" alt="${project.title}" onerror="this.src='placeholder-project.jpg'">
+                <img src="../${project.image}" alt="${project.title}" onerror="this.src='../placeholder-project.jpg'">
             </div>
             <div class="project-content">
                 <h3>${project.title}</h3>
@@ -64,7 +64,7 @@ function createTagFilters(tags) {
 
 // Function to filter projects by tag
 function filterProjects(tag) {
-    fetch('projects.json')
+    fetch('../projects.json')
         .then(response => response.json())
         .then(data => {
             if (tag === 'all') {
