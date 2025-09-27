@@ -2,31 +2,13 @@
   "projects": [
     {
       "id": "project-1",
-      "title": "Interactive Data Visualization",
-      "description": "A web-based tool for exploring complex datasets with interactive charts and filtering capabilities.",
-      "tags": ["JavaScript", "D3.js", "Data Visualization", "Web Development"],
-      "image": "project1-preview.jpg",
-      "url": "projectsFolder/project-1.html",
-      "featured": true
-    },
-    {
-      "id": "project-2", 
-      "title": "Mobile App Design",
-      "description": "UI/UX design for a productivity mobile application with focus on user experience.",
-      "tags": ["UI/UX", "Mobile Design", "Figma", "Prototyping"],
-      "image": "project2-preview.jpg",
-      "url": "projectsFolder/project-2.html",
-      "featured": false
-    },
-    {
-      "id": "project-3",
-      "title": "Machine Learning Model",
-      "description": "Predictive analytics model for customer behavior analysis using Python and scikit-learn.",
-      "tags": ["Python", "Machine Learning", "Data Science", "Analytics"],
-      "image": "project3-preview.jpg", 
-      "url": "projectsFolder/project-3.html",
-      "featured": true
+      "title": "Bunny Cafe SF",
+      "description": "Designed and maintaining the online site and services for the Bunny Cafe San Francisco.",
+      "tags": ["Figma", "UI/UX", "Web Design"],
+      "image": "project1-preview.png",
+      "url": "projectsFolder/project-1.html"
     }
   ],
-  "tags": ["JavaScript", "Data Visualization", "Web Development", "UI/UX", "Mobile Design", "Figma", "Prototyping", "Python", "Machine Learning", "Data Science", "Analytics"]
+  "tags": ["3D Modeling","AR Apps", "Blender", "Figma", "HTML/CSS", "JavaScript",
+           "Python", "UI/UX", "Unreal Engine", "Web Design"]
 } 

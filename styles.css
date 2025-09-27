@@ -110,6 +110,8 @@ header h1 a:hover,
 /* Social links */
 .social-links {
   margin-top: 10px;
+  display: flex;
+  gap: 4px;
 }
 
 .social-icon {
@@ -198,25 +200,13 @@ header h1 a:hover,
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-.project-image {
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-}
-
-.project-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .project-content {
-  padding: 20px;
+  padding: 24px;
 }
 
 .project-content h3 {
   font-size: 20px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   color: #0f172a;
 }
 

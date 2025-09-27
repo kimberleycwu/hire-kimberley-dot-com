@@ -23,9 +23,6 @@ function displayProjects(projects, filteredProjects = null) {
     
     projectsContainer.innerHTML = projectsToShow.map(project => `
         <div class="project-card" data-tags="${project.tags.join(',')}">
-            <div class="project-image">
-                <img src="../${project.image}" alt="${project.title}" onerror="this.src='../placeholder-project.jpg'">
-            </div>
             <div class="project-content">
                 <h3>${project.title}</h3>
                 <p>${project.description}</p>
