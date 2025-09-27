@@ -1,4 +1,6 @@
-/* Base reset and typography */
+/* ========================================
+   BASE STYLES & RESET
+   ======================================== */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,14 +14,26 @@ body {
   line-height: 1.6;
 }
 
-/* Page container */
-body > header {
+/* ========================================
+   LAYOUT CONTAINERS
+   ======================================== */
+body > header,
+main {
   max-width: 960px;
   margin: 0 auto;
+}
+
+body > header {
   padding: 24px 16px 8px 16px;
 }
 
-/* Header layout */
+main {
+  padding: 32px 16px;
+}
+
+/* ========================================
+   HEADER & NAVIGATION
+   ======================================== */
 header {
   display: flex;
   align-items: center;
@@ -30,6 +44,12 @@ header {
 header h1 {
   font-size: 28px;
   font-weight: 700;
+  cursor: pointer;
+  color: #334155;
+}
+
+header h1:hover {
+  color: #4f3668;
 }
 
 .tabs {
@@ -37,32 +57,30 @@ header h1 {
   gap: 20px;
 }
 
-.tabs p, header h1 {
+.tabs p {
   cursor: pointer;
   color: #334155;
 }
 
-.tabs p:hover, header h1:hover {
+.tabs p:hover {
   color: #4f3668;
 }
 
-/* Navigation links - remove default styling */
-header h1 a, .tabs a {
+/* Navigation links */
+header h1 a, 
+.tabs a {
   text-decoration: none;
   color: inherit;
 }
 
-header h1 a:hover, .tabs a:hover {
+header h1 a:hover, 
+.tabs a:hover {
   color: #7c39c0;
 }
 
-/* Main content */
-main {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 32px 16px;
-}
-
+/* ========================================
+   MAIN CONTENT AREAS
+   ======================================== */
 .video-container {
   display: flex;
   justify-content: center;
@@ -104,7 +122,9 @@ main {
   opacity: 0.7;
 }
 
-/* Projects page styles */
+/* ========================================
+   PROJECTS PAGE
+   ======================================== */
 .projects-header {
   text-align: center;
   margin-bottom: 40px;
@@ -222,14 +242,19 @@ main {
   font-weight: 500;
 }
 
-.project-link {
+/* ========================================
+   LINKS & INTERACTIVE ELEMENTS
+   ======================================== */
+.project-link,
+.project-back a {
   color: #000000;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.2s ease;
 }
 
-.project-link:hover {
+.project-link:hover,
+.project-back a:hover {
   color: #5b21b6;
 }
 
@@ -240,17 +265,9 @@ main {
   grid-column: 1 / -1;
 }
 
-.project-back a {
-  color: #000000;
-  text-decoration: none;
-}
-
-.project-back a:hover {
-  color: #5b21b6;
-  text-decoration: none;
-}
-
-/* Responsive design */
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
 @media (max-width: 768px) {
   .about-content {
     flex-direction: column;
@@ -260,8 +277,7 @@ main {
   .pdf-container iframe {
     height: 400px;
   }
-
-  /* Responsive design for projects */
+  
   .projects-grid {
     grid-template-columns: 1fr;
   }
