@@ -7,6 +7,11 @@ function loadHeader() {
     fetch(headerPath)
         .then(response => response.text())
         .then(data => {
+            // If we're in a subfolder, adjust the header links
+            if (isInSubfolder) {
+                data = data.replace(/href="([^"]*\.html)"/g, 'href="../$1"');
+            }
+            
             // Insert header before the main content
             const main = document.querySelector('main');
             if (main) {
