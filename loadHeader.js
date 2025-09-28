@@ -1,6 +1,6 @@
 // Function to load header into each page
 function loadHeader() {
-    fetch('../header.html')
+    fetch('header.html')
         .then(response => response.text())
         .then(data => {
             // Insert header before the main content

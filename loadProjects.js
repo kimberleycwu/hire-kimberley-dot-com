@@ -1,6 +1,6 @@
 // Function to load and display projects
 function loadProjects() {
-    fetch('../projects.json')
+    fetch('projects.json')
         .then(response => response.json())
         .then(data => {
             displayProjects(data.projects);
@@ -61,7 +61,7 @@ function createTagFilters(tags) {
 
 // Function to filter projects by tag
 function filterProjects(tag) {
-    fetch('../projects.json')
+    fetch('projects.json')
         .then(response => response.json())
         .then(data => {
             if (tag === 'all') {
