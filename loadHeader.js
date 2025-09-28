@@ -1,6 +1,10 @@
 // Function to load header into each page
 function loadHeader() {
-    fetch('header.html')
+    // Determine the correct path to header.html based on current page location
+    const isInSubfolder = window.location.pathname.includes('/projectsFolder/');
+    const headerPath = isInSubfolder ? '../header.html' : 'header.html';
+    
+    fetch(headerPath)
         .then(response => response.text())
         .then(data => {
             // Insert header before the main content
