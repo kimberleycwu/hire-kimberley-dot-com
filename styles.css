@@ -105,6 +105,8 @@ header h1 a:hover,
 .pdf-container iframe {
   border: 1px solid #e2e8f0;
   border-radius: 8px;
+  height: 700px; /* Increased from 500px */
+  width: 100%;
 }
 
 /* Social links */
@@ -270,6 +272,10 @@ header h1 a:hover,
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 32px;
   }
+  
+  .pdf-container iframe {
+    height: 800px; /* Even taller on large screens */
+  }
 }
 
 /* Medium screens (tablets) */
@@ -288,6 +294,10 @@ header h1 a:hover,
   .projects-grid {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
+  }
+  
+  .pdf-container iframe {
+    height: 650px; /* Slightly shorter on tablets */
   }
 }
 
@@ -321,7 +331,7 @@ header h1 a:hover,
   }
   
   .pdf-container iframe {
-    height: 400px;
+    height: 500px; /* Maintained for mobile landscape */
   }
   
   /* Projects page */
@@ -390,7 +400,7 @@ header h1 a:hover,
   }
   
   .pdf-container iframe {
-    height: 300px;
+    height: 400px; /* Shorter for mobile portrait */
   }
   
   /* Projects page */
