@@ -258,7 +258,63 @@ header h1 a:hover,
 /* ========================================
    RESPONSIVE DESIGN
    ======================================== */
+
+/* Large screens (laptops/desktops) */
+@media (min-width: 1200px) {
+  body > header,
+  main {
+    max-width: 1200px;
+  }
+  
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 32px;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 1024px) {
+  body > header,
+  main {
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+  .about-content {
+    gap: 32px;
+  }
+  
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+}
+
+/* Small screens (mobile landscape) */
 @media (max-width: 768px) {
+  body > header {
+    padding: 16px 12px 6px 12px;
+  }
+  
+  main {
+    padding: 24px 12px;
+  }
+  
+  /* Header adjustments */
+  header h1 {
+    font-size: 24px;
+  }
+  
+  .tabs {
+    gap: 16px;
+  }
+  
+  .tabs p {
+    font-size: 14px;
+  }
+  
+  /* About page */
   .about-content {
     flex-direction: column;
     gap: 24px;
@@ -268,11 +324,145 @@ header h1 a:hover,
     height: 400px;
   }
   
+  /* Projects page */
+  .projects-header h2 {
+    font-size: 28px;
+  }
+  
   .projects-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
   
   .tag-filters {
     justify-content: center;
+  }
+  
+  .filter-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+  
+  .project-content {
+    padding: 20px;
+  }
+  
+  .project-content h3 {
+    font-size: 18px;
+  }
+}
+
+/* Extra small screens (mobile portrait) */
+@media (max-width: 480px) {
+  body > header {
+    padding: 12px 8px 4px 8px;
+  }
+  
+  main {
+    padding: 16px 8px;
+  }
+  
+  /* Header adjustments */
+  header {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 22px;
+  }
+  
+  .tabs {
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tabs p {
+    font-size: 13px;
+  }
+  
+  /* About page */
+  .about-content {
+    gap: 20px;
+  }
+  
+  .pdf-container iframe {
+    height: 300px;
+  }
+  
+  /* Projects page */
+  .projects-header {
+    margin-bottom: 24px;
+  }
+  
+  .projects-header h2 {
+    font-size: 24px;
+  }
+  
+  .projects-header p {
+    font-size: 14px;
+  }
+  
+  .projects-filters {
+    margin-bottom: 20px;
+  }
+  
+  .projects-filters h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .tag-filters {
+    gap: 6px;
+  }
+  
+  .filter-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  
+  .project-content {
+    padding: 16px;
+  }
+  
+  .project-content h3 {
+    font-size: 16px;
+  }
+  
+  .project-content p {
+    font-size: 14px;
+  }
+  
+  .tag {
+    font-size: 11px;
+    padding: 3px 6px;
+  }
+  
+  /* Social icons */
+  .social-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* Touch-friendly improvements */
+@media (hover: none) and (pointer: coarse) {
+  .project-card:hover {
+    transform: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-btn:hover {
+    border-color: #e2e8f0;
+    color: #334155;
+  }
+  
+  .filter-btn.active {
+    background: #7c39c0;
+    color: #ffffff;
+    border-color: #7c39c0;
   }
 }
