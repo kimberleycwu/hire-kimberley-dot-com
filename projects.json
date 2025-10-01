@@ -6,6 +6,13 @@
       "description": "Designed and maintaining the online site and services for the Bunny Cafe San Francisco.",
       "tags": ["Figma", "UI/UX", "Web Design"],
       "url": "project-1.html"
+    },
+    {
+      "id": "project-2",
+      "title": "Misc. Animation Work",
+      "description": "Various animation tests & sequences.",
+      "tags": ["Blender","3D Modeling"],
+      "url": "project-2.html"
     }
   ],
   "tags": ["3D Modeling","AR Apps", "Blender", "Figma", "HTML/CSS", "JavaScript",
