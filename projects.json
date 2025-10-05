@@ -1,20 +1,27 @@
 {
   "projects": [
     {
+      "id": "project-3",
+      "title": "Wicked 'That's My Line' Re-Creation",
+      "description": "Building and rendering a stylized version of the infamous 'That's My Line' advert.",
+      "tags": ["3D Modeling", "Blender", "Unreal Engine"],
+      "url": "project-3.html"
+    },
+    {
+      "id": "project-4",
+      "title": "towAR Tower Defense",
+      "description": "An augmented reality app, built with Vuforia Engine for iOS.",
+      "tags": ["3D Modeling", "AR Development", "Unity"],
+      "url": "project-4.html"
+    },
+    {
       "id": "project-1",
       "title": "Bunny Cafe SF",
       "description": "Designed and maintaining the online site and services for the Bunny Cafe San Francisco.",
       "tags": ["Figma", "UI/UX", "Web Design"],
       "url": "project-1.html"
-    },
-    {
-      "id": "project-2",
-      "title": "Misc. Animation Work",
-      "description": "Various animation tests & sequences.",
-      "tags": ["Blender","3D Modeling"],
-      "url": "project-2.html"
     }
   ],
-  "tags": ["3D Modeling","AR Apps", "Blender", "Figma", "HTML/CSS", "JavaScript",
+  "tags": ["3D Modeling","AR Development", "Blender", "Figma", "HTML/CSS", "JavaScript",
            "Python", "UI/UX", "Unity", "Unreal Engine", "Web Design"]
 } 
