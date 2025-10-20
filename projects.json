@@ -8,6 +8,13 @@
       "url": "project-3.html"
     },
     {
+      "id": "project-5",
+      "title": "A Paint Program",
+      "description": "A nifty little paint program. Good for boring lectures.",
+      "tags": ["JavaScript", "HTML/CSS", "Web Development"],
+      "url": "project-5.html"
+    },
+    {
       "id": "project-4",
       "title": "towAR Tower Defense",
       "description": "An augmented reality app, built with Vuforia Engine for iOS.",
@@ -22,6 +29,5 @@
       "url": "project-1.html"
     }
   ],
-  "tags": ["3D Modeling","AR Development", "Blender", "Figma", "HTML/CSS", "JavaScript",
-           "Python", "UI/UX", "Unity", "Unreal Engine", "Web Design"]
+  "tags": ["Python", "Blender","Unreal Engine","Unity", "3D Modeling", "UI/UX", "JavaScript", "AR Development", "HTML/CSS", "Figma", "Web Design"]
 } 
