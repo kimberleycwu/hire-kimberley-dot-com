@@ -15,13 +15,6 @@
       "url": "project-5.html"
     },
     {
-      "id": "project-4",
-      "title": "towAR Tower Defense",
-      "description": "An augmented reality app, built with Vuforia Engine for iOS.",
-      "tags": ["3D Modeling", "AR Development", "Unity"],
-      "url": "project-4.html"
-    },
-    {
       "id": "project-1",
       "title": "Bunny Cafe SF",
       "description": "Designed and maintaining the online site and services for the Bunny Cafe San Francisco.",
@@ -29,5 +22,5 @@
       "url": "project-1.html"
     }
   ],
-  "tags": ["Python", "Blender","Unreal Engine","Unity", "3D Modeling", "UI/UX", "JavaScript", "AR Development", "HTML/CSS", "Figma", "Web Design"]
-} 
+  "tags": ["Python", "JavaScript", "Unreal Engine", "Unity", "Blender", "3D Modeling", "UI/UX", "AR Development", "HTML/CSS", "Figma", "Web Design"]
+}
