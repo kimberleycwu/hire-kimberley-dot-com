@@ -81,6 +81,15 @@
   /* ========================================
      MAIN CONTENT AREAS
      ======================================== */
+  img {
+    width:80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
   .video-container {
     display: flex;
     justify-content: center;

@@ -8,6 +8,13 @@
       "url": "project-3.html"
     },
     {
+      "id": "project-6",
+      "title": "Playtime!",
+      "description": "A story-driven, interactive, browser-based application.",
+      "tags": ["JavaScript", "HTML/CSS", "Web Development"],
+      "url": "project-6.html"
+    },
+    {
       "id": "project-5",
       "title": "A Paint Program",
       "description": "A nifty little paint program. Good for boring lectures.",
