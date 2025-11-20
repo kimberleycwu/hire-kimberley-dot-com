@@ -2,32 +2,23 @@
   "projects": [
     {
       "id": "project-3",
-      "title": "Wicked 'That's My Line' Re-Creation",
-      "description": "Building and rendering a stylized version of the infamous 'That's My Line' advert.",
-      "tags": ["3D Modeling", "Blender", "Unreal Engine"],
       "url": "project-3.html"
     },
     {
+      "id": "project-7",
+      "url": "project-7.html"
+    },
+    {
       "id": "project-6",
-      "title": "Playtime!",
-      "description": "A story-driven, interactive, browser-based application.",
-      "tags": ["JavaScript", "HTML/CSS", "Web Development"],
       "url": "project-6.html"
     },
     {
       "id": "project-5",
-      "title": "A Paint Program",
-      "description": "A nifty little paint program. Good for boring lectures.",
-      "tags": ["JavaScript", "HTML/CSS", "Web Development"],
       "url": "project-5.html"
     },
     {
       "id": "project-1",
-      "title": "Bunny Cafe SF",
-      "description": "Designed and maintaining the online site and services for the Bunny Cafe San Francisco.",
-      "tags": ["Figma", "UI/UX", "Web Design"],
       "url": "project-1.html"
     }
-  ],
-  "tags": ["Python", "JavaScript", "Unreal Engine", "Unity", "Blender", "3D Modeling", "UI/UX", "AR Development", "HTML/CSS", "Figma", "Web Design"]
+  ]
 }
