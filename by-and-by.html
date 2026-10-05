@@ -19,24 +19,39 @@
         <div class="project-page">
             <div class="project-video">
                 <iframe
-                    src="https://youtu.be/6aBT0a6-6c4"
+                    src="https://www.youtube.com/embed/6aBT0a6-6c4"
                     title="'BY AND BY'"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin"
                     allowfullscreen>
                 </iframe>
             </div>
-            <div class="software-used">
-                <h2>Software</h2>
-                <ul>
-                    <li>DaVinci Resolve</li>
-                </ul>
-            </div>
             <div class="project-breakdown">
-                <h2>Behind the scenes</h2>
+
+                <div class="breakdown-text" data-markdown="assetsFolder/by-and-by/by-and-by-breakdown.md"></div>
+
+                <div class="breakdown-item">
+                    <h2>Pitch deck</h2>
+                    <iframe src="assetsFolder/by-and-by/By_By_Final_Pitch_Deck.pdf" title="'BY AND BY' pitch deck" type="application/pdf" loading="lazy"></iframe>
+                    <a href="assetsFolder/by-and-by/By_By_Final_Pitch_Deck.pdf" target="_blank" rel="noopener">Open pitch deck</a>
+                </div>
+
+                <div class="breakdown-item">
+                    <h2>Storyboards</h2>
+                    <iframe src="assetsFolder/by-and-by/boards_FULL.pdf" title="'BY AND BY' storyboards" type="application/pdf" loading="lazy"></iframe>
+                    <a href="assetsFolder/by-and-by/boards_FULL.pdf" target="_blank" rel="noopener">Open storyboards</a>
+                </div>
+
+                <div class="breakdown-item">
+                    <h2>Script with notes</h2>
+                    <iframe src="assetsFolder/by-and-by/script_with_notes.pdf" title="'BY AND BY' script with notes" type="application/pdf" loading="lazy"></iframe>
+                    <a href="assetsFolder/by-and-by/script_with_notes.pdf" target="_blank" rel="noopener">Open script</a>
+                </div>
             </div>
         </div>
     </main>
 
     <script src="loadHeader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+    <script src="loadMarkdown.js"></script>
 </body>
