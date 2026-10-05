@@ -1,4 +1,4 @@
-<!-- ## About the project
+## About the project
 
 Replace this text with your own project breakdown. This file is plain Markdown, so you can write it in any text editor and save it here.
 
@@ -11,4 +11,4 @@ Replace this text with your own project breakdown. This file is plain Markdown, 
 - Bulleted lists start with `-`, numbered lists start with `1.`
 - Quotes start with `>`
 
-> Leave a blank line between paragraphs. -->
+> Leave a blank line between paragraphs.
