@@ -8,11 +8,45 @@
 </head>
 <body>
     <main>
-        <div class="video-container">
-            <h1>reel coming soon!</h1>
-            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/b96l0snOfmQ?si=ZURkqMeBJ2luMgH6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+        <a class="latest" href="https://kimisdotdotdot.substack.com/p/kim-is-thinking-about-her-future" target="_blank" rel="noopener noreferrer">
+            <p class="latest-label">Latest</p>
+            <span class="latest-kind">Article</span>
+            <h2>Maker's Missive - Vol. 1</h2>
+            <p class="latest-summary">A recap of what I've been up to for the month of September 2026.</p>
+        </a>
+
+        <div class="work-layout">
+            <div class="project-categories">
+                <button type="button" class="category-btn active" data-category="all">All</button>
+                <button type="button" class="category-btn" data-category="film">Film</button>
+                <button type="button" class="category-btn" data-category="3d">3D</button>
+                <button type="button" class="category-btn" data-category="software">Software</button>
+            </div>
+
+            <div class="project-tiles">
+
+                <div class="project-tile" data-category="film">
+                    <span class="project-category">Film</span>
+                    <h3>'BY AND BY'</h3>
+                    <p class="project-subtitle">A short film inspired by Shakespeare's Romeo and Juliet.</p>
+                </div>
+
+            </div>
         </div>
     </main>
-    
+
     <script src="loadHeader.js"></script>
+    <script>
+        document.querySelectorAll(".category-btn").forEach((button) => {
+            button.addEventListener("click", () => {
+                const category = button.dataset.category;
+                document.querySelectorAll(".category-btn").forEach((item) => {
+                    item.classList.toggle("active", item === button);
+                });
+                document.querySelectorAll(".project-tile").forEach((tile) => {
+                    tile.hidden = category !== "all" && tile.dataset.category !== category;
+                });
+            });
+        });
+    </script>
 </body>
