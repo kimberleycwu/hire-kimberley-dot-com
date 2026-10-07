@@ -32,6 +32,6 @@ The first step, across the board, when it comes to visual work- gathering refere
 
 The most mentally-cumbersome part of this concept is the animatronic interface, so I'll phrase this section of the project as a research objective: 
 
-Determine how a small, wearable interface can enable a live performer to reliably command a semi-autonomous animatronic chatacyer without diverting attention from performance, guests, navigation, and safety. This work will investigate the interface as a form of shared human-robot control. In this model, autonomy handles routine idle movement, while the performer retains authority over socally-meaningful actions and safety-critical interruptions.
+Determine how a small, wearable interface can enable a live performer to reliably command a semi-autonomous animatronic character without diverting attention from performance, guests, navigation, and safety. This work will investigate the interface as a form of shared human-robot control. In this model, autonomy handles routine idle movement, while the performer retains authority over socally-meaningful actions and safety-critical interruptions.
 
 The interface has a target completion date of December 2026.

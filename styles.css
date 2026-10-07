@@ -135,7 +135,9 @@ img {
 .latest {
   padding: 28px;
   margin-bottom: 32px;
-  background: #f8fafc;
+  background:
+    linear-gradient(rgba(248, 250, 252, 0.82), rgba(248, 250, 252, 0.82)),
+    url("assetsFolder/newspaper.jpg") center / cover no-repeat;
 }
 
 .project-tile {
