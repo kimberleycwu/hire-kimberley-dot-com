@@ -348,38 +348,12 @@ img {
   font-size: 0.9em;
 }
 
-.breakdown-item {
-  margin-bottom: 32px;
-}
-
-.breakdown-item:last-child {
-  margin-bottom: 0;
-}
-
-.breakdown-item h3 {
-  font-size: 16px;
-  margin-bottom: 8px;
-}
-
-.breakdown-item iframe {
+.breakdown-text iframe {
   display: block;
   width: 100%;
   height: 600px;
   border: 1px solid #e2e8f0;
   border-radius: 8px;
-}
-
-.breakdown-item a {
-  display: inline-block;
-  margin-top: 8px;
-  font-size: 14px;
-  font-weight: 600;
-  color: #334155;
-  text-decoration: none;
-}
-
-.breakdown-item a:hover {
-  color: #7c39c0;
 }
 
 @media (min-width: 1200px) {
